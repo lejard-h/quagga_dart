@@ -7,15 +7,8 @@ import 'package:quagga_dart/quagga_dart.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('A group of tests', () {
-    Awesome awesome;
-
-    setUp(() {
-      awesome = new Awesome();
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
-    });
+  test('test', () {
+    Constraints cst = new Constraints(width: 250, height: 50);
+    print(cst);
   });
 }

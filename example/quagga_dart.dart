@@ -4,8 +4,9 @@
 library quagga_dart.example;
 
 import 'package:quagga_dart/quagga_dart.dart';
+import 'package:js/js.dart';
+
 
 main() {
-  var awesome = new Awesome();
-  print('awesome: ${awesome.isAwesome}');
+
 }

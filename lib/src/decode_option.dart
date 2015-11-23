@@ -9,5 +9,7 @@ import 'package:js/js.dart';
 @JS()
 @anonymous
 class DecodeOption {
+    //external bool get responsive;
+
     external factory DecodeOption();
 }

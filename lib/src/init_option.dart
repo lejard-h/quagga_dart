@@ -7,7 +7,6 @@ library quagga.init_option;
 import 'package:js/js.dart';
 import 'locator.dart';
 import 'decoder.dart';
-import 'input_stream.dart';
 
 @JS()
 @anonymous
@@ -21,6 +20,26 @@ class InitOption {
 
   external factory InitOption(
       {InputStream inputStream, Decoder decoder, num numOfWorkers, bool locate, Locator locator, bool tracking});
+}
+
+@JS()
+@anonymous
+class InputStream {
+  external String get name;
+  external String get type;
+  external Constraints get constraints;
+
+  external factory InputStream({String name, String type, Constraints constraints});
+}
+
+@JS()
+@anonymous
+class Constraints {
+  external String get facing;
+  external num get width;
+  external num get height;
+
+  external factory Constraints({num width, num height, String facing});
 }
 
 @JS()

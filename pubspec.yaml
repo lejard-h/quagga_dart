@@ -1,6 +1,6 @@
 name: quagga_dart
 description: Port of QuaggaJs library
-version: 0.0.1
+version: 0.0.2
 author: Hadrien Lejard <hadrien.lejard@gmail.com>
 homepage: https://github.com/lejard-h/quagga_dart
 

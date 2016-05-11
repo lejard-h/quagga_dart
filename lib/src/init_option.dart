@@ -2,11 +2,7 @@
  * Created by lejard_h on 19/11/15.
  */
 
-library quagga.init_option;
-
-import 'package:js/js.dart';
-import 'locator.dart';
-import 'decoder.dart';
+part of quagga;
 
 @JS()
 @anonymous

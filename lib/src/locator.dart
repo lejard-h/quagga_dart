@@ -1,6 +1,4 @@
-library quagga.locator;
-
-import 'package:js/js.dart';
+part of quagga;
 
 @JS()
 @anonymous

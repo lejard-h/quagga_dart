@@ -2,9 +2,7 @@
  * Created by lejard_h on 19/11/15.
  */
 
-library quagga.result_data;
-
-import 'package:js/js.dart';
+part of quagga;
 
 @JS()
 @anonymous
